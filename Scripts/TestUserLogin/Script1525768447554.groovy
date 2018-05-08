@@ -24,15 +24,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.213.239.153:8086/')
 
-WebUI.setText(findTestObject('TestUserLogin/input_username'), 'user')
+WebUI.setText(findTestObject('TestUserLogin/input_username'), username)
 
-WebUI.setText(findTestObject('TestUserLogin/input_password'), 'user')
+WebUI.setText(findTestObject('TestUserLogin/input_password'), password)
 
 WebUI.click(findTestObject('TestUserLogin/button_Login'))
 
-WebUI.click(findTestObject('TestUserLogin/a_Products'))
+WebUI.verifyElementText(findTestObject('TestUserLogin/a_Products'), 'Products')
 
-WebUI.click(findTestObject('TestUserLogin/a_Carts'))
+WebUI.verifyElementText(findTestObject('TestUserLogin/a_Carts'), 'Carts')
 
 WebUI.closeBrowser()
 
