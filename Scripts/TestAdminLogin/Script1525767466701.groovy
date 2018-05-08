@@ -24,15 +24,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.213.239.153:8086/')
 
-WebUI.setText(findTestObject('TestLoginAsAdmin/input_username'), 'admin')
+WebUI.setText(findTestObject('TestLoginAsAdmin/input_username'), username)
 
-WebUI.setText(findTestObject('TestLoginAsAdmin/input_password'), 'admin')
+WebUI.setText(findTestObject('TestLoginAsAdmin/input_password'), password)
 
 WebUI.click(findTestObject('TestLoginAsAdmin/button_Login'))
 
-WebUI.click(findTestObject('TestLoginAsAdmin/a_Products'))
+WebUI.verifyElementText(findTestObject('TestLoginAsAdmin/a_Products'), 'Products')
 
-WebUI.click(findTestObject('TestLoginAsAdmin/a_Total Transaction'))
+WebUI.verifyElementText(findTestObject('TestLoginAsAdmin/a_Total Transaction'), 'Total Transaction')
 
 WebUI.closeBrowser()
 
