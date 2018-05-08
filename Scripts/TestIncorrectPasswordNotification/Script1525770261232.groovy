@@ -24,13 +24,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.213.239.153:8086/')
 
-WebUI.setText(findTestObject('TestIncorrectPassword/input_username'), 'user')
+WebUI.setText(findTestObject('TestIncorrectPassword/input_username'), username)
 
-WebUI.setText(findTestObject('TestIncorrectPassword/input_password'), 'kwb55')
+WebUI.setText(findTestObject('TestIncorrectPassword/input_password'), password)
 
 WebUI.click(findTestObject('TestIncorrectPassword/button_Login'))
 
-WebUI.click(findTestObject('TestIncorrectPassword/label_Usernamepassword is inco'))
+WebUI.verifyElementText(findTestObject('TestIncorrectPassword/label_Usernamepassword is inco'), 'Username/password is incorrect')
 
 WebUI.closeBrowser()
 

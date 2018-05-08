@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteIncorrectPassword" time="0" tests="0" failures="1" errors="0">
+   <testsuite name="TestSuiteIncorrectPassword" tests="0" failures="1" errors="0" time="0" timestamp="2018-05-08 16:27:09" hostname="MSI-GE72VR - 10.80.124.224" id="Test Suites/TestSuiteIncorrectPassword">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MSI-GE72VR\\git\\Project234-Katalon\\Reports\\TestSuiteIncorrectPassword\\20180508_162708"/>
+         <property name="logFiles" value="C:\\Users\\MSI-GE72VR\\git\\Project234-Katalon\\Reports\\TestSuiteIncorrectPassword\\20180508_162708\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MSI-GE72VR - 10.80.124.224"/>
+         <property name="hostAddress" value="10.80.124.224"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+      </properties>
+      <testcase name="Test Cases/TestIncorrectPasswordNotification" classname="Test Cases/TestIncorrectPasswordNotification" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MSI', ip: '10.80.124.224', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-05-08 16:27:09 - [TEST_CASE][FAILED] - Test Cases/TestIncorrectPasswordNotification: Test Cases/TestIncorrectPasswordNotification FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MSI', ip: '10.80.124.224', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-08 16:27:09 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MSI', ip: '10.80.124.224', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-08 16:27:10 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MSI', ip: '10.80.124.224', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-05-08 16:27:09 - [TEST_CASE][FAILED] - Test Cases/TestIncorrectPasswordNotification: Test Cases/TestIncorrectPasswordNotification FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MSI', ip: '10.80.124.224', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-08 16:27:09 - [TEST_SUITE][FAILED] - TestSuiteIncorrectPassword: Test Cases/TestIncorrectPasswordNotification FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MSI', ip: '10.80.124.224', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-05-08 16:27:09 - [TEST_SUITE][FAILED] - TestSuiteIncorrectPassword: Test Cases/TestIncorrectPasswordNotification FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MSI', ip: '10.80.124.224', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

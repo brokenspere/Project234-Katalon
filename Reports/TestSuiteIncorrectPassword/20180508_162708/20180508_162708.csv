@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuiteIncorrectPassword,,,2018-05-08 16:27:09,2018-05-08 16:27:10,0.823s,FAILED
+,,,,,,
+Test Cases/TestIncorrectPasswordNotification,,,2018-05-08 16:27:09,2018-05-08 16:27:10,0.547s,FAILED
+openBrowser,,,2018-05-08 16:27:09,2018-05-08 16:27:10,0.308s,FAILED
