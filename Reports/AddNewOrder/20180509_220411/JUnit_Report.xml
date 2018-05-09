@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddNewOrder" time="12" tests="1" failures="0" errors="0">
+   <testsuite name="AddNewOrder" tests="1" failures="0" errors="0" time="12" timestamp="2018-05-09 22:04:12" hostname="MSI-GE72VR - MSI" id="Test Suites/AddNewOrder">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MSI-GE72VR\\git\\Project234-Katalon\\Reports\\AddNewOrder\\20180509_220411"/>
+         <property name="logFiles" value="C:\\Users\\MSI-GE72VR\\git\\Project234-Katalon\\Reports\\AddNewOrder\\20180509_220411\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MSI-GE72VR - MSI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.0.102"/>
+         <property name="sessionId" value="b1650b9b7a46dcd0f838e1a5899ba17b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/AddNewOrder" classname="Test Cases/AddNewOrder" status="PASSED">
+         <system-out><![CDATA[2018-05-09 22:04:12 - [TEST_CASE][PASSED] - Test Cases/AddNewOrder: Test Cases/AddNewOrder
+
+2018-05-09 22:04:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 22:04:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 22:04:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.213.239.153:8086/' successfully
+
+2018-05-09 22:04:22 - [MESSAGE][PASSED] - Navigate to 'http://34.213.239.153:8086/' successfully
+
+2018-05-09 22:04:22 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/AddNewOrder/input_username'
+
+2018-05-09 22:04:22 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/AddNewOrder/input_username'
+
+2018-05-09 22:04:22 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/AddNewOrder/input_password'
+
+2018-05-09 22:04:22 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/AddNewOrder/input_password'
+
+2018-05-09 22:04:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddNewOrder/button_Login' is clicked on
+
+2018-05-09 22:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/AddNewOrder/button_Login' is clicked on
+
+2018-05-09 22:04:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-09 22:04:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-09 22:04:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddNewOrder/button_add to cart' is clicked on
+
+2018-05-09 22:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/AddNewOrder/button_add to cart' is clicked on
+
+2018-05-09 22:04:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddNewOrder/a_Carts            1' is clicked on
+
+2018-05-09 22:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/AddNewOrder/a_Carts            1' is clicked on
+
+2018-05-09 22:04:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/AddNewOrder/p_Total price  20000 THB' are matched.
+
+2018-05-09 22:04:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AddNewOrder/p_Total price  20000 THB' are matched.
+
+2018-05-09 22:04:23 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/AddNewOrder/input_amount'
+
+2018-05-09 22:04:23 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/AddNewOrder/input_amount'
+
+2018-05-09 22:04:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/AddNewOrder/p_Total price  40000 THB' are matched.
+
+2018-05-09 22:04:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AddNewOrder/p_Total price  40000 THB' are matched.
+
+2018-05-09 22:04:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddNewOrder/button_confirm' is clicked on
+
+2018-05-09 22:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/AddNewOrder/button_confirm' is clicked on
+
+2018-05-09 22:04:23 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-09 22:04:23 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-09 22:04:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/AddNewOrder/div_Well done You successfully' are matched.
+
+2018-05-09 22:04:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AddNewOrder/div_Well done You successfully' are matched.
+
+2018-05-09 22:04:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 22:04:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 22:04:12 - [TEST_SUITE][PASSED] - AddNewOrder: Test Cases/AddNewOrder]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

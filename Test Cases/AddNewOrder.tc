@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddNewOrder</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2886f5be-b81b-47b4-aa63-45a129b7cd0e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bb75266f-a4b4-471d-9da7-bd53f2b20cbd</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>436754fa-191d-483b-a259-5898391c0995</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

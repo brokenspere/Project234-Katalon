@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>AddNewOrder</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-05-09T22:04:11</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>385d6285-ffad-4a48-b42b-c089952813c8</testSuiteGuid>
+   <testCaseLink>
+      <guid>ff0de399-aa07-4597-a3f2-4265d7f321b3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AddNewOrder</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4aff265f-46d1-4833-b662-94d561b2cd47</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/AddNewOrderData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4aff265f-46d1-4833-b662-94d561b2cd47</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>bb75266f-a4b4-471d-9da7-bd53f2b20cbd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4aff265f-46d1-4833-b662-94d561b2cd47</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>436754fa-191d-483b-a259-5898391c0995</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
