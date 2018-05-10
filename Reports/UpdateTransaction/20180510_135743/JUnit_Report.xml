@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UpdateTransaction" time="66" tests="0" failures="3" errors="0">
+   <testsuite name="UpdateTransaction" tests="0" failures="3" errors="0" time="66" timestamp="2018-05-10 13:57:44" hostname="MSI-GE72VR - 10.80.125.96" id="Test Suites/UpdateTransaction">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MSI-GE72VR\\git\\Project234-Katalon\\Reports\\UpdateTransaction\\20180510_135743"/>
+         <property name="logFiles" value="C:\\Users\\MSI-GE72VR\\git\\Project234-Katalon\\Reports\\UpdateTransaction\\20180510_135743\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\MSI-GE72VR\\git\\Project234-Katalon\\Reports\\UpdateTransaction\\20180510_135743\\1525935518444.png"/>
+         <property name="hostName" value="MSI-GE72VR - 10.80.125.96"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.125.96"/>
+         <property name="sessionId" value="f9067c7d9f86c8ac123c29ea3c29de4c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestUpdateTransaction" classname="Test Cases/TestUpdateTransaction" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]' not found)"/>
+         <system-out><![CDATA[2018-05-10 13:57:45 - [TEST_CASE][FAILED] - Test Cases/TestUpdateTransaction: Test Cases/TestUpdateTransaction FAILED because (of) Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]' not found)
+
+2018-05-10 13:57:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 13:57:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 13:57:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.213.239.153:8086/' successfully
+
+2018-05-10 13:57:54 - [MESSAGE][PASSED] - Navigate to 'http://34.213.239.153:8086/' successfully
+
+2018-05-10 13:57:54 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_username'
+
+2018-05-10 13:57:54 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_username'
+
+2018-05-10 13:57:54 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_password'
+
+2018-05-10 13:57:54 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_password'
+
+2018-05-10 13:57:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_Login' is clicked on
+
+2018-05-10 13:57:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_Login' is clicked on
+
+2018-05-10 13:57:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/a_Total Transaction' is clicked on
+
+2018-05-10 13:57:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/a_Total Transaction' is clicked on
+
+2018-05-10 13:57:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-10 13:58:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-10 13:58:00 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TestUpdateTransaction/Old admin total price)): Text of object 'Object Repository/TestUpdateTransaction/Old admin total price' is: 'Total price: 562,320 THB'
+
+2018-05-10 13:58:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/TestUpdateTransaction/Old admin total price' is: 'Total price: 562,320 THB'
+
+2018-05-10 13:58:01 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = oldTotalPrice.replaceAll("Total price: ", ""): null
+
+2018-05-10 13:58:01 - [TEST_STEP][PASSED] - Statement - println(oldTotalPrice): null
+
+2018-05-10 13:58:01 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = oldTotalPrice.replaceAll(" THB", ""): null
+
+2018-05-10 13:58:01 - [TEST_STEP][PASSED] - Statement - println(oldTotalPrice): null
+
+2018-05-10 13:58:01 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = oldTotalPrice.replaceAll(",", ""): null
+
+2018-05-10 13:58:01 - [TEST_STEP][PASSED] - Statement - println(oldTotalPrice): null
+
+2018-05-10 13:58:01 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = java.lang.Integer.parseInt(oldTotalPrice): null
+
+2018-05-10 13:58:01 - [TEST_STEP][PASSED] - Statement - println(oldTotalPrice): null
+
+2018-05-10 13:58:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_Logout' is clicked on
+
+2018-05-10 13:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_Logout' is clicked on
+
+2018-05-10 13:58:01 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_username'
+
+2018-05-10 13:58:01 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_username'
+
+2018-05-10 13:58:01 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_password'
+
+2018-05-10 13:58:01 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_password'
+
+2018-05-10 13:58:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_Login' is clicked on
+
+2018-05-10 13:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_Login' is clicked on
+
+2018-05-10 13:58:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_add to cart' is clicked on
+
+2018-05-10 13:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_add to cart' is clicked on
+
+2018-05-10 13:58:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_add to cart' is clicked on
+
+2018-05-10 13:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_add to cart' is clicked on
+
+2018-05-10 13:58:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/cart' is clicked on
+
+2018-05-10 13:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/cart' is clicked on
+
+2018-05-10 13:58:02 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-10 13:58:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-10 13:58:07 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TestUpdateTransaction/User total price)): Text of object 'Object Repository/TestUpdateTransaction/User total price' is: 'Total price: 562,320 THB'
+
+2018-05-10 13:58:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/TestUpdateTransaction/User total price' is: 'Total price: 562,320 THB'
+
+2018-05-10 13:58:07 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = UserTotalPrice.replaceAll("Total price: ", ""): null
+
+2018-05-10 13:58:07 - [TEST_STEP][PASSED] - Statement - println(UserTotalPrice): null
+
+2018-05-10 13:58:07 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = UserTotalPrice.replaceAll(" THB", ""): null
+
+2018-05-10 13:58:07 - [TEST_STEP][PASSED] - Statement - println(UserTotalPrice): null
+
+2018-05-10 13:58:07 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = UserTotalPrice.replaceAll(",", ""): null
+
+2018-05-10 13:58:07 - [TEST_STEP][PASSED] - Statement - println(UserTotalPrice): null
+
+2018-05-10 13:58:07 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = java.lang.Integer.parseInt(UserTotalPrice): null
+
+2018-05-10 13:58:07 - [TEST_STEP][PASSED] - Statement - println(UserTotalPrice): null
+
+2018-05-10 13:58:07 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]' not found)
+
+2018-05-10 13:58:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]' not found)
+[[ATTACHMENT|C:\\Users\\MSI-GE72VR\\git\\Project234-Katalon\\Reports\\UpdateTransaction\\20180510_135743\\1525935518444.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-10 13:57:45 - [TEST_CASE][FAILED] - Test Cases/TestUpdateTransaction: Test Cases/TestUpdateTransaction FAILED because (of) Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestUpdateTransaction" classname="Test Cases/TestUpdateTransaction" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'user' of object 'Object Repository/TestUpdateTransaction/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MSI', ip: '10.80.125.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MSI-GE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 6bf948315856513b4a348dfe956fc0ac
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @type = 'text']})"/>
+         <system-out><![CDATA[2018-05-10 13:58:38 - [TEST_CASE][FAILED] - Test Cases/TestUpdateTransaction: Test Cases/TestUpdateTransaction FAILED because (of) Unable to set text 'user' of object 'Object Repository/TestUpdateTransaction/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MSI', ip: '10.80.125.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MSI-GE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 6bf948315856513b4a348dfe956fc0ac
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @type = 'text']})
+
+2018-05-10 13:58:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 13:58:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-10 13:58:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 13:58:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.213.239.153:8086/' successfully
+
+2018-05-10 13:58:44 - [MESSAGE][PASSED] - Navigate to 'http://34.213.239.153:8086/' successfully
+
+2018-05-10 13:58:44 - [TEST_STEP][FAILED] - setText: Unable to set text 'user' of object 'Object Repository/TestUpdateTransaction/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MSI', ip: '10.80.125.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MSI-GE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 6bf948315856513b4a348dfe956fc0ac
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @type = 'text']})
+
+2018-05-10 13:58:44 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-10 13:58:44 - [MESSAGE][FAILED] - Unable to set text 'user' of object 'Object Repository/TestUpdateTransaction/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MSI', ip: '10.80.125.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MSI-GE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 6bf948315856513b4a348dfe956fc0ac
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @type = 'text']})]]></system-out>
+         <system-err><![CDATA[2018-05-10 13:58:38 - [TEST_CASE][FAILED] - Test Cases/TestUpdateTransaction: Test Cases/TestUpdateTransaction FAILED because (of) Unable to set text 'user' of object 'Object Repository/TestUpdateTransaction/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MSI', ip: '10.80.125.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MSI-GE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 6bf948315856513b4a348dfe956fc0ac
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @type = 'text']})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestUpdateTransaction" classname="Test Cases/TestUpdateTransaction" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'admin' of object 'Object Repository/TestUpdateTransaction/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MSI', ip: '10.80.125.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MSI-GE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: f9067c7d9f86c8ac123c29ea3c29de4c
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @type = 'text']})"/>
+         <system-out><![CDATA[2018-05-10 13:58:44 - [TEST_CASE][FAILED] - Test Cases/TestUpdateTransaction: Test Cases/TestUpdateTransaction FAILED because (of) Unable to set text 'admin' of object 'Object Repository/TestUpdateTransaction/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MSI', ip: '10.80.125.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MSI-GE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: f9067c7d9f86c8ac123c29ea3c29de4c
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @type = 'text']})
+
+2018-05-10 13:58:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 13:58:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-10 13:58:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 13:58:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.213.239.153:8086/' successfully
+
+2018-05-10 13:58:50 - [MESSAGE][PASSED] - Navigate to 'http://34.213.239.153:8086/' successfully
+
+2018-05-10 13:58:50 - [TEST_STEP][FAILED] - setText: Unable to set text 'admin' of object 'Object Repository/TestUpdateTransaction/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MSI', ip: '10.80.125.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MSI-GE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: f9067c7d9f86c8ac123c29ea3c29de4c
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @type = 'text']})
+
+2018-05-10 13:58:50 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-10 13:58:50 - [MESSAGE][FAILED] - Unable to set text 'admin' of object 'Object Repository/TestUpdateTransaction/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MSI', ip: '10.80.125.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MSI-GE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: f9067c7d9f86c8ac123c29ea3c29de4c
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @type = 'text']})]]></system-out>
+         <system-err><![CDATA[2018-05-10 13:58:44 - [TEST_CASE][FAILED] - Test Cases/TestUpdateTransaction: Test Cases/TestUpdateTransaction FAILED because (of) Unable to set text 'admin' of object 'Object Repository/TestUpdateTransaction/input_username' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MSI', ip: '10.80.125.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MSI-GE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: f9067c7d9f86c8ac123c29ea3c29de4c
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @type = 'text']})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 13:57:44 - [TEST_SUITE][FAILED] - UpdateTransaction: Test Cases/TestUpdateTransaction FAILED because (of) Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-10 13:57:44 - [TEST_SUITE][FAILED] - UpdateTransaction: Test Cases/TestUpdateTransaction FAILED because (of) Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

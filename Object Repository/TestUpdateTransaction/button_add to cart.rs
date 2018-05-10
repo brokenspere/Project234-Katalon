@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_confirm</name>
+   <name>button_add to cart</name>
    <tag></tag>
-   <elementGuidId>a7ba6f71-4506-458a-baec-216efd448183</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;add-row&quot;)/div[@class=&quot;col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;offset-9 col-3&quot;]/button[@class=&quot;btn  btn-primary&quot;]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>0ee99a48-c789-4f7a-bd6d-20ecda48af99</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -24,27 +18,27 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn  btn-primary</value>
+      <value>btn btn-outline-primary</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> confirm</value>
+      <value> add to cart</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;add-row&quot;)/div[@class=&quot;col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;offset-9 col-3&quot;]/button[@class=&quot;btn  btn-primary&quot;]</value>
+      <value>/html[1]/body[1]/app-root[1]/app-product-list[1]/div[@class=&quot;dashboard-card&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;farmer-all-card&quot;]/div[@class=&quot;farmer-card&quot;]/a[1]/div[@class=&quot;farmer-detail&quot;]/div[@class=&quot;col text-center&quot;]/button[@class=&quot;btn btn-outline-primary&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

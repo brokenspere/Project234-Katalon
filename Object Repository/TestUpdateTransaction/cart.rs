@@ -1,50 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_confirm</name>
+   <name>cart</name>
    <tag></tag>
-   <elementGuidId>a7ba6f71-4506-458a-baec-216efd448183</elementGuidId>
+   <elementGuidId>b4046a6b-f9ff-46f9-a503-249cfb05c415</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;add-row&quot;)/div[@class=&quot;col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;offset-9 col-3&quot;]/button[@class=&quot;btn  btn-primary&quot;]</value>
+         <value>//*[@id=&quot;navbarSupportedContent&quot;]/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn  btn-primary</value>
+      <value>nav-link</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>routerlink</name>
       <type>Main</type>
-      <value>button</value>
+      <value>/cart</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-router-link</name>
+      <type>Main</type>
+      <value>/cart</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/cart</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> confirm</value>
+      <value>Carts
+            2
+          </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;add-row&quot;)/div[@class=&quot;col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;offset-9 col-3&quot;]/button[@class=&quot;btn  btn-primary&quot;]</value>
+      <value>//*[@id=&quot;navbarSupportedContent&quot;]/ul/li[2]/a</value>
    </webElementProperties>
 </WebElementEntity>

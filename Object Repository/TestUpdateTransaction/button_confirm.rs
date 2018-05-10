@@ -3,11 +3,11 @@
    <description></description>
    <name>button_confirm</name>
    <tag></tag>
-   <elementGuidId>a7ba6f71-4506-458a-baec-216efd448183</elementGuidId>
+   <elementGuidId>3c5fa862-0a8a-47a5-b8c9-33d23a082525</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;add-row&quot;)/div[@class=&quot;col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;offset-9 col-3&quot;]/button[@class=&quot;btn  btn-primary&quot;]</value>
+         <value>//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,21 +27,21 @@
       <value>btn  btn-primary</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> confirm</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

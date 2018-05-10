@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UpdateTransaction" time="142" tests="0" failures="3" errors="0">
+   <testsuite name="UpdateTransaction" tests="0" failures="3" errors="0" time="142" timestamp="2018-05-10 13:49:42" hostname="MSI-GE72VR - 10.80.125.96" id="Test Suites/UpdateTransaction">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MSI-GE72VR\\git\\Project234-Katalon\\Reports\\UpdateTransaction\\20180510_134940"/>
+         <property name="logFiles" value="C:\\Users\\MSI-GE72VR\\git\\Project234-Katalon\\Reports\\UpdateTransaction\\20180510_134940\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\MSI-GE72VR\\git\\Project234-Katalon\\Reports\\UpdateTransaction\\20180510_134940\\1525935028777.png, C:\\Users\\MSI-GE72VR\\git\\Project234-Katalon\\Reports\\UpdateTransaction\\20180510_134940\\1525935073640.png, C:\\Users\\MSI-GE72VR\\git\\Project234-Katalon\\Reports\\UpdateTransaction\\20180510_134940\\1525935124075.png"/>
+         <property name="hostName" value="MSI-GE72VR - 10.80.125.96"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.125.96"/>
+         <property name="sessionId" value="dbf80d488b6356b85ec45f613af241f7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestUpdateTransaction" classname="Test Cases/TestUpdateTransaction" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: id(&quot;add-row&quot;)/div[@class=&quot;col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;offset-9 col-3&quot;]/button[@class=&quot;btn  btn-primary&quot;][count(. | //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]) = count(//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')])]' not found)"/>
+         <system-out><![CDATA[2018-05-10 13:49:42 - [TEST_CASE][FAILED] - Test Cases/TestUpdateTransaction: Test Cases/TestUpdateTransaction FAILED because (of) Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: id("add-row")/div[@class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content"]/div[@class="row"]/div[@class="offset-9 col-3"]/button[@class="btn  btn-primary"][count(. | //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]) = count(//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')])]' not found)
+
+2018-05-10 13:49:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 13:49:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 13:49:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.213.239.153:8086/' successfully
+
+2018-05-10 13:49:50 - [MESSAGE][PASSED] - Navigate to 'http://34.213.239.153:8086/' successfully
+
+2018-05-10 13:49:50 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_username'
+
+2018-05-10 13:49:51 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_username'
+
+2018-05-10 13:49:51 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_password'
+
+2018-05-10 13:49:51 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_password'
+
+2018-05-10 13:49:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_Login' is clicked on
+
+2018-05-10 13:49:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_Login' is clicked on
+
+2018-05-10 13:49:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/a_Total Transaction' is clicked on
+
+2018-05-10 13:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/a_Total Transaction' is clicked on
+
+2018-05-10 13:49:52 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-10 13:49:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-10 13:49:57 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TestUpdateTransaction/Old admin total price)): Text of object 'Object Repository/TestUpdateTransaction/Old admin total price' is: 'Total price: 542,170 THB'
+
+2018-05-10 13:49:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/TestUpdateTransaction/Old admin total price' is: 'Total price: 542,170 THB'
+
+2018-05-10 13:49:57 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = oldTotalPrice.replaceAll("Total price: ", ""): null
+
+2018-05-10 13:49:57 - [TEST_STEP][PASSED] - Statement - println(oldTotalPrice): null
+
+2018-05-10 13:49:57 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = oldTotalPrice.replaceAll(" THB", ""): null
+
+2018-05-10 13:49:57 - [TEST_STEP][PASSED] - Statement - println(oldTotalPrice): null
+
+2018-05-10 13:49:57 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = oldTotalPrice.replaceAll(",", ""): null
+
+2018-05-10 13:49:57 - [TEST_STEP][PASSED] - Statement - println(oldTotalPrice): null
+
+2018-05-10 13:49:57 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = java.lang.Integer.parseInt(oldTotalPrice): null
+
+2018-05-10 13:49:57 - [TEST_STEP][PASSED] - Statement - println(oldTotalPrice): null
+
+2018-05-10 13:49:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_Logout' is clicked on
+
+2018-05-10 13:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_Logout' is clicked on
+
+2018-05-10 13:49:57 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_username'
+
+2018-05-10 13:49:57 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_username'
+
+2018-05-10 13:49:57 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_password'
+
+2018-05-10 13:49:57 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_password'
+
+2018-05-10 13:49:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_Login' is clicked on
+
+2018-05-10 13:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_Login' is clicked on
+
+2018-05-10 13:49:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_add to cart' is clicked on
+
+2018-05-10 13:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_add to cart' is clicked on
+
+2018-05-10 13:49:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_add to cart' is clicked on
+
+2018-05-10 13:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_add to cart' is clicked on
+
+2018-05-10 13:49:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/cart' is clicked on
+
+2018-05-10 13:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/cart' is clicked on
+
+2018-05-10 13:49:58 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TestUpdateTransaction/User total price)): Text of object 'Object Repository/TestUpdateTransaction/User total price' is: 'Total price: 542,170 THB'
+
+2018-05-10 13:49:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/TestUpdateTransaction/User total price' is: 'Total price: 542,170 THB'
+
+2018-05-10 13:49:58 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = UserTotalPrice.replaceAll("Total price: ", ""): null
+
+2018-05-10 13:49:58 - [TEST_STEP][PASSED] - Statement - println(UserTotalPrice): null
+
+2018-05-10 13:49:58 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = UserTotalPrice.replaceAll(" THB", ""): null
+
+2018-05-10 13:49:58 - [TEST_STEP][PASSED] - Statement - println(UserTotalPrice): null
+
+2018-05-10 13:49:58 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = UserTotalPrice.replaceAll(",", ""): null
+
+2018-05-10 13:49:58 - [TEST_STEP][PASSED] - Statement - println(UserTotalPrice): null
+
+2018-05-10 13:49:58 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = java.lang.Integer.parseInt(UserTotalPrice): null
+
+2018-05-10 13:49:58 - [TEST_STEP][PASSED] - Statement - println(UserTotalPrice): null
+
+2018-05-10 13:49:58 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: id("add-row")/div[@class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content"]/div[@class="row"]/div[@class="offset-9 col-3"]/button[@class="btn  btn-primary"][count(. | //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]) = count(//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')])]' not found)
+
+2018-05-10 13:50:29 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: id("add-row")/div[@class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content"]/div[@class="row"]/div[@class="offset-9 col-3"]/button[@class="btn  btn-primary"][count(. | //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]) = count(//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')])]' not found)
+[[ATTACHMENT|C:\\Users\\MSI-GE72VR\\git\\Project234-Katalon\\Reports\\UpdateTransaction\\20180510_134940\\1525935028777.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-10 13:49:42 - [TEST_CASE][FAILED] - Test Cases/TestUpdateTransaction: Test Cases/TestUpdateTransaction FAILED because (of) Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: id("add-row")/div[@class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content"]/div[@class="row"]/div[@class="offset-9 col-3"]/button[@class="btn  btn-primary"][count(. | //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]) = count(//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestUpdateTransaction" classname="Test Cases/TestUpdateTransaction" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: id(&quot;add-row&quot;)/div[@class=&quot;col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;offset-9 col-3&quot;]/button[@class=&quot;btn  btn-primary&quot;][count(. | //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]) = count(//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')])]' not found)"/>
+         <system-out><![CDATA[2018-05-10 13:50:29 - [TEST_CASE][FAILED] - Test Cases/TestUpdateTransaction: Test Cases/TestUpdateTransaction FAILED because (of) Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: id("add-row")/div[@class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content"]/div[@class="row"]/div[@class="offset-9 col-3"]/button[@class="btn  btn-primary"][count(. | //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]) = count(//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')])]' not found)
+
+2018-05-10 13:50:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 13:50:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-10 13:50:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 13:50:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.213.239.153:8086/' successfully
+
+2018-05-10 13:50:35 - [MESSAGE][PASSED] - Navigate to 'http://34.213.239.153:8086/' successfully
+
+2018-05-10 13:50:35 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/TestUpdateTransaction/input_username'
+
+2018-05-10 13:50:36 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/TestUpdateTransaction/input_username'
+
+2018-05-10 13:50:36 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/TestUpdateTransaction/input_password'
+
+2018-05-10 13:50:36 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/TestUpdateTransaction/input_password'
+
+2018-05-10 13:50:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_Login' is clicked on
+
+2018-05-10 13:50:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_Login' is clicked on
+
+2018-05-10 13:50:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/a_Total Transaction' is clicked on
+
+2018-05-10 13:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/a_Total Transaction' is clicked on
+
+2018-05-10 13:50:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-10 13:50:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-10 13:50:42 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TestUpdateTransaction/Old admin total price)): Text of object 'Object Repository/TestUpdateTransaction/Old admin total price' is: 'Total price: 0 THB'
+
+2018-05-10 13:50:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/TestUpdateTransaction/Old admin total price' is: 'Total price: 0 THB'
+
+2018-05-10 13:50:42 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = oldTotalPrice.replaceAll("Total price: ", ""): null
+
+2018-05-10 13:50:42 - [TEST_STEP][PASSED] - Statement - println(oldTotalPrice): null
+
+2018-05-10 13:50:42 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = oldTotalPrice.replaceAll(" THB", ""): null
+
+2018-05-10 13:50:42 - [TEST_STEP][PASSED] - Statement - println(oldTotalPrice): null
+
+2018-05-10 13:50:42 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = oldTotalPrice.replaceAll(",", ""): null
+
+2018-05-10 13:50:42 - [TEST_STEP][PASSED] - Statement - println(oldTotalPrice): null
+
+2018-05-10 13:50:42 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = java.lang.Integer.parseInt(oldTotalPrice): null
+
+2018-05-10 13:50:42 - [TEST_STEP][PASSED] - Statement - println(oldTotalPrice): null
+
+2018-05-10 13:50:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_Logout' is clicked on
+
+2018-05-10 13:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_Logout' is clicked on
+
+2018-05-10 13:50:42 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/TestUpdateTransaction/input_username'
+
+2018-05-10 13:50:42 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/TestUpdateTransaction/input_username'
+
+2018-05-10 13:50:42 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/TestUpdateTransaction/input_password'
+
+2018-05-10 13:50:42 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/TestUpdateTransaction/input_password'
+
+2018-05-10 13:50:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_Login' is clicked on
+
+2018-05-10 13:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_Login' is clicked on
+
+2018-05-10 13:50:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_add to cart' is clicked on
+
+2018-05-10 13:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_add to cart' is clicked on
+
+2018-05-10 13:50:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_add to cart' is clicked on
+
+2018-05-10 13:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_add to cart' is clicked on
+
+2018-05-10 13:50:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/cart' is clicked on
+
+2018-05-10 13:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/cart' is clicked on
+
+2018-05-10 13:50:43 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TestUpdateTransaction/User total price)): Text of object 'Object Repository/TestUpdateTransaction/User total price' is: 'Total price: 20,150 THB'
+
+2018-05-10 13:50:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/TestUpdateTransaction/User total price' is: 'Total price: 20,150 THB'
+
+2018-05-10 13:50:43 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = UserTotalPrice.replaceAll("Total price: ", ""): null
+
+2018-05-10 13:50:43 - [TEST_STEP][PASSED] - Statement - println(UserTotalPrice): null
+
+2018-05-10 13:50:43 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = UserTotalPrice.replaceAll(" THB", ""): null
+
+2018-05-10 13:50:43 - [TEST_STEP][PASSED] - Statement - println(UserTotalPrice): null
+
+2018-05-10 13:50:43 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = UserTotalPrice.replaceAll(",", ""): null
+
+2018-05-10 13:50:43 - [TEST_STEP][PASSED] - Statement - println(UserTotalPrice): null
+
+2018-05-10 13:50:43 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = java.lang.Integer.parseInt(UserTotalPrice): null
+
+2018-05-10 13:50:43 - [TEST_STEP][PASSED] - Statement - println(UserTotalPrice): null
+
+2018-05-10 13:50:43 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: id("add-row")/div[@class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content"]/div[@class="row"]/div[@class="offset-9 col-3"]/button[@class="btn  btn-primary"][count(. | //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]) = count(//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')])]' not found)
+
+2018-05-10 13:51:13 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: id("add-row")/div[@class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content"]/div[@class="row"]/div[@class="offset-9 col-3"]/button[@class="btn  btn-primary"][count(. | //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]) = count(//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')])]' not found)
+[[ATTACHMENT|C:\\Users\\MSI-GE72VR\\git\\Project234-Katalon\\Reports\\UpdateTransaction\\20180510_134940\\1525935073640.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-10 13:50:29 - [TEST_CASE][FAILED] - Test Cases/TestUpdateTransaction: Test Cases/TestUpdateTransaction FAILED because (of) Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: id("add-row")/div[@class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content"]/div[@class="row"]/div[@class="offset-9 col-3"]/button[@class="btn  btn-primary"][count(. | //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]) = count(//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestUpdateTransaction" classname="Test Cases/TestUpdateTransaction" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: id(&quot;add-row&quot;)/div[@class=&quot;col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;offset-9 col-3&quot;]/button[@class=&quot;btn  btn-primary&quot;][count(. | //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]) = count(//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')])]' not found)"/>
+         <system-out><![CDATA[2018-05-10 13:51:13 - [TEST_CASE][FAILED] - Test Cases/TestUpdateTransaction: Test Cases/TestUpdateTransaction FAILED because (of) Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: id("add-row")/div[@class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content"]/div[@class="row"]/div[@class="offset-9 col-3"]/button[@class="btn  btn-primary"][count(. | //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]) = count(//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')])]' not found)
+
+2018-05-10 13:51:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 13:51:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-10 13:51:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 13:51:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.213.239.153:8086/' successfully
+
+2018-05-10 13:51:26 - [MESSAGE][PASSED] - Navigate to 'http://34.213.239.153:8086/' successfully
+
+2018-05-10 13:51:26 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_username'
+
+2018-05-10 13:51:26 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_username'
+
+2018-05-10 13:51:26 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_password'
+
+2018-05-10 13:51:26 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_password'
+
+2018-05-10 13:51:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_Login' is clicked on
+
+2018-05-10 13:51:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_Login' is clicked on
+
+2018-05-10 13:51:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/a_Total Transaction' is clicked on
+
+2018-05-10 13:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/a_Total Transaction' is clicked on
+
+2018-05-10 13:51:27 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-10 13:51:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-10 13:51:32 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TestUpdateTransaction/Old admin total price)): Text of object 'Object Repository/TestUpdateTransaction/Old admin total price' is: 'Total price: 542,170 THB'
+
+2018-05-10 13:51:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/TestUpdateTransaction/Old admin total price' is: 'Total price: 542,170 THB'
+
+2018-05-10 13:51:32 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = oldTotalPrice.replaceAll("Total price: ", ""): null
+
+2018-05-10 13:51:32 - [TEST_STEP][PASSED] - Statement - println(oldTotalPrice): null
+
+2018-05-10 13:51:32 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = oldTotalPrice.replaceAll(" THB", ""): null
+
+2018-05-10 13:51:32 - [TEST_STEP][PASSED] - Statement - println(oldTotalPrice): null
+
+2018-05-10 13:51:32 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = oldTotalPrice.replaceAll(",", ""): null
+
+2018-05-10 13:51:32 - [TEST_STEP][PASSED] - Statement - println(oldTotalPrice): null
+
+2018-05-10 13:51:32 - [TEST_STEP][PASSED] - Statement - oldTotalPrice = java.lang.Integer.parseInt(oldTotalPrice): null
+
+2018-05-10 13:51:32 - [TEST_STEP][PASSED] - Statement - println(oldTotalPrice): null
+
+2018-05-10 13:51:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_Logout' is clicked on
+
+2018-05-10 13:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_Logout' is clicked on
+
+2018-05-10 13:51:32 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_username'
+
+2018-05-10 13:51:33 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_username'
+
+2018-05-10 13:51:33 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_password'
+
+2018-05-10 13:51:33 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TestUpdateTransaction/input_password'
+
+2018-05-10 13:51:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_Login' is clicked on
+
+2018-05-10 13:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_Login' is clicked on
+
+2018-05-10 13:51:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_add to cart' is clicked on
+
+2018-05-10 13:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_add to cart' is clicked on
+
+2018-05-10 13:51:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/button_add to cart' is clicked on
+
+2018-05-10 13:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/button_add to cart' is clicked on
+
+2018-05-10 13:51:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestUpdateTransaction/cart' is clicked on
+
+2018-05-10 13:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TestUpdateTransaction/cart' is clicked on
+
+2018-05-10 13:51:33 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TestUpdateTransaction/User total price)): Text of object 'Object Repository/TestUpdateTransaction/User total price' is: 'Total price: 542,170 THB'
+
+2018-05-10 13:51:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/TestUpdateTransaction/User total price' is: 'Total price: 542,170 THB'
+
+2018-05-10 13:51:33 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = UserTotalPrice.replaceAll("Total price: ", ""): null
+
+2018-05-10 13:51:33 - [TEST_STEP][PASSED] - Statement - println(UserTotalPrice): null
+
+2018-05-10 13:51:33 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = UserTotalPrice.replaceAll(" THB", ""): null
+
+2018-05-10 13:51:33 - [TEST_STEP][PASSED] - Statement - println(UserTotalPrice): null
+
+2018-05-10 13:51:33 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = UserTotalPrice.replaceAll(",", ""): null
+
+2018-05-10 13:51:33 - [TEST_STEP][PASSED] - Statement - println(UserTotalPrice): null
+
+2018-05-10 13:51:33 - [TEST_STEP][PASSED] - Statement - UserTotalPrice = java.lang.Integer.parseInt(UserTotalPrice): null
+
+2018-05-10 13:51:33 - [TEST_STEP][PASSED] - Statement - println(UserTotalPrice): null
+
+2018-05-10 13:51:33 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: id("add-row")/div[@class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content"]/div[@class="row"]/div[@class="offset-9 col-3"]/button[@class="btn  btn-primary"][count(. | //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]) = count(//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')])]' not found)
+
+2018-05-10 13:52:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: id("add-row")/div[@class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content"]/div[@class="row"]/div[@class="offset-9 col-3"]/button[@class="btn  btn-primary"][count(. | //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]) = count(//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')])]' not found)
+[[ATTACHMENT|C:\\Users\\MSI-GE72VR\\git\\Project234-Katalon\\Reports\\UpdateTransaction\\20180510_134940\\1525935124075.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-10 13:51:13 - [TEST_CASE][FAILED] - Test Cases/TestUpdateTransaction: Test Cases/TestUpdateTransaction FAILED because (of) Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: id("add-row")/div[@class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content"]/div[@class="row"]/div[@class="offset-9 col-3"]/button[@class="btn  btn-primary"][count(. | //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]) = count(//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 13:49:42 - [TEST_SUITE][FAILED] - UpdateTransaction: Test Cases/TestUpdateTransaction FAILED because (of) Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: id("add-row")/div[@class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content"]/div[@class="row"]/div[@class="offset-9 col-3"]/button[@class="btn  btn-primary"][count(. | //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]) = count(//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-10 13:49:42 - [TEST_SUITE][FAILED] - UpdateTransaction: Test Cases/TestUpdateTransaction FAILED because (of) Unable to click on object 'Object Repository/TestUpdateTransaction/button_confirm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestUpdateTransaction/button_confirm' located by 'By.xpath: id("add-row")/div[@class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content"]/div[@class="row"]/div[@class="offset-9 col-3"]/button[@class="btn  btn-primary"][count(. | //button[@type = 'button' and (text() = ' confirm' or . = ' confirm')]) = count(//button[@type = 'button' and (text() = ' confirm' or . = ' confirm')])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

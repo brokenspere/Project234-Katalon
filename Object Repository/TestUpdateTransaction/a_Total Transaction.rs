@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_confirm</name>
+   <name>a_Total Transaction</name>
    <tag></tag>
-   <elementGuidId>a7ba6f71-4506-458a-baec-216efd448183</elementGuidId>
+   <elementGuidId>296e055c-396a-4996-b2c6-62d5ecd6392d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;add-row&quot;)/div[@class=&quot;col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;offset-9 col-3&quot;]/button[@class=&quot;btn  btn-primary&quot;]</value>
+         <value>id(&quot;navbarSupportedContent&quot;)/ul[@class=&quot;navbar-nav mr-auto&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,34 +17,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn  btn-primary</value>
+      <value>nav-link</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>routerlink</name>
       <type>Main</type>
-      <value>button</value>
+      <value>/total</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-router-link</name>
+      <type>Main</type>
+      <value>/total</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/total</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> confirm</value>
+      <value>Total Transaction</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;add-row&quot;)/div[@class=&quot;col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;offset-9 col-3&quot;]/button[@class=&quot;btn  btn-primary&quot;]</value>
+      <value>id(&quot;navbarSupportedContent&quot;)/ul[@class=&quot;navbar-nav mr-auto&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

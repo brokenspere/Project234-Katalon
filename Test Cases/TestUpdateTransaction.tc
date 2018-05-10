@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestUpdateTransaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a22bb750-96df-4e7f-8f94-28361ceb1a03</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2a5c92c2-07f9-4e76-89e3-a81c407202dc</id>
+      <masked>false</masked>
+      <name>admin_username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>73e6e1a2-2243-49b5-a676-a937e87a454c</id>
+      <masked>false</masked>
+      <name>admin_password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3041bd31-11fb-439b-9a0c-05f409e12dfa</id>
+      <masked>false</masked>
+      <name>user_username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d4422631-4660-4382-949f-801947c38676</id>
+      <masked>false</masked>
+      <name>user_password</name>
+   </variable>
+</TestCaseEntity>

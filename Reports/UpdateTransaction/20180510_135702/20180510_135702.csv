@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UpdateTransaction,,,2018-05-10 13:57:03,2018-05-10 13:57:04,1.040s,FAILED
+,,,,,,
+Test Cases/TestUpdateTransaction,,,2018-05-10 13:57:03,2018-05-10 13:57:04,0.626s,FAILED
+openBrowser,,,2018-05-10 13:57:04,2018-05-10 13:57:04,0.331s,FAILED
+,,,,,,
+Test Cases/TestUpdateTransaction,,,2018-05-10 13:57:04,2018-05-10 13:57:04,0.025s,FAILED
+openBrowser,,,2018-05-10 13:57:04,2018-05-10 13:57:04,0.003s,FAILED
+,,,,,,
+Test Cases/TestUpdateTransaction,,,2018-05-10 13:57:04,2018-05-10 13:57:04,0.028s,FAILED
+openBrowser,,,2018-05-10 13:57:04,2018-05-10 13:57:04,0.006s,FAILED

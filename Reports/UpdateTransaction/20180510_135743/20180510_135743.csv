@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UpdateTransaction,Chrome 66.0.3359.139,,2018-05-10 13:57:44,2018-05-10 13:58:51,1m - 6.645s,FAILED
+,,,,,,
+Test Cases/TestUpdateTransaction,Chrome 66.0.3359.139,,2018-05-10 13:57:45,2018-05-10 13:58:38,53.660s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-10 13:57:45,2018-05-10 13:57:49,4.003s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-10 13:57:49,2018-05-10 13:57:54,4.731s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 13:57:54,2018-05-10 13:57:54,0.169s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 13:57:54,2018-05-10 13:57:54,0.122s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 13:57:54,2018-05-10 13:57:54,0.119s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 13:57:54,2018-05-10 13:57:55,1.277s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-10 13:57:55,2018-05-10 13:58:00,5.032s,PASSED
+Statement - oldTotalPrice = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TestUpdateTransaction/Old admin total price)),Chrome 66.0.3359.139,,2018-05-10 13:58:00,2018-05-10 13:58:01,0.115s,PASSED
+"Statement - oldTotalPrice = oldTotalPrice.replaceAll(""Total price: "", """")",Chrome 66.0.3359.139,,2018-05-10 13:58:01,2018-05-10 13:58:01,0.004s,PASSED
+Statement - println(oldTotalPrice),Chrome 66.0.3359.139,,2018-05-10 13:58:01,2018-05-10 13:58:01,0.005s,PASSED
+"Statement - oldTotalPrice = oldTotalPrice.replaceAll("" THB"", """")",Chrome 66.0.3359.139,,2018-05-10 13:58:01,2018-05-10 13:58:01,0.001s,PASSED
+Statement - println(oldTotalPrice),Chrome 66.0.3359.139,,2018-05-10 13:58:01,2018-05-10 13:58:01,0.001s,PASSED
+"Statement - oldTotalPrice = oldTotalPrice.replaceAll("","", """")",Chrome 66.0.3359.139,,2018-05-10 13:58:01,2018-05-10 13:58:01,0.000s,PASSED
+Statement - println(oldTotalPrice),Chrome 66.0.3359.139,,2018-05-10 13:58:01,2018-05-10 13:58:01,0.000s,PASSED
+Statement - oldTotalPrice = java.lang.Integer.parseInt(oldTotalPrice),Chrome 66.0.3359.139,,2018-05-10 13:58:01,2018-05-10 13:58:01,0.006s,PASSED
+Statement - println(oldTotalPrice),Chrome 66.0.3359.139,,2018-05-10 13:58:01,2018-05-10 13:58:01,0.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 13:58:01,2018-05-10 13:58:01,0.137s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 13:58:01,2018-05-10 13:58:01,0.182s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 13:58:01,2018-05-10 13:58:01,0.176s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 13:58:01,2018-05-10 13:58:01,0.137s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 13:58:01,2018-05-10 13:58:01,0.102s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 13:58:01,2018-05-10 13:58:01,0.084s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 13:58:01,2018-05-10 13:58:02,0.102s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-10 13:58:02,2018-05-10 13:58:07,5.002s,PASSED
+Statement - UserTotalPrice = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TestUpdateTransaction/User total price)),Chrome 66.0.3359.139,,2018-05-10 13:58:07,2018-05-10 13:58:07,0.090s,PASSED
+"Statement - UserTotalPrice = UserTotalPrice.replaceAll(""Total price: "", """")",Chrome 66.0.3359.139,,2018-05-10 13:58:07,2018-05-10 13:58:07,0.001s,PASSED
+Statement - println(UserTotalPrice),Chrome 66.0.3359.139,,2018-05-10 13:58:07,2018-05-10 13:58:07,0.000s,PASSED
+"Statement - UserTotalPrice = UserTotalPrice.replaceAll("" THB"", """")",Chrome 66.0.3359.139,,2018-05-10 13:58:07,2018-05-10 13:58:07,0.003s,PASSED
+Statement - println(UserTotalPrice),Chrome 66.0.3359.139,,2018-05-10 13:58:07,2018-05-10 13:58:07,0.002s,PASSED
+"Statement - UserTotalPrice = UserTotalPrice.replaceAll("","", """")",Chrome 66.0.3359.139,,2018-05-10 13:58:07,2018-05-10 13:58:07,0.000s,PASSED
+Statement - println(UserTotalPrice),Chrome 66.0.3359.139,,2018-05-10 13:58:07,2018-05-10 13:58:07,0.005s,PASSED
+Statement - UserTotalPrice = java.lang.Integer.parseInt(UserTotalPrice),Chrome 66.0.3359.139,,2018-05-10 13:58:07,2018-05-10 13:58:07,0.000s,PASSED
+Statement - println(UserTotalPrice),Chrome 66.0.3359.139,,2018-05-10 13:58:07,2018-05-10 13:58:07,0.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 13:58:07,2018-05-10 13:58:38,31.734s,FAILED
+,,,,,,
+Test Cases/TestUpdateTransaction,Chrome 66.0.3359.139,,2018-05-10 13:58:38,2018-05-10 13:58:44,5.879s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-10 13:58:38,2018-05-10 13:58:41,2.687s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-10 13:58:41,2018-05-10 13:58:44,3.131s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 13:58:44,2018-05-10 13:58:44,0.027s,FAILED
+,,,,,,
+Test Cases/TestUpdateTransaction,Chrome 66.0.3359.139,,2018-05-10 13:58:44,2018-05-10 13:58:50,6.052s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-10 13:58:44,2018-05-10 13:58:47,3.084s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-10 13:58:47,2018-05-10 13:58:50,2.926s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 13:58:50,2018-05-10 13:58:50,0.017s,FAILED
